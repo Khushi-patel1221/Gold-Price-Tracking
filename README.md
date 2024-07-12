@@ -16,17 +16,17 @@ Pandas: Library used for data manipulation and analysis.
 File Structure
 kotlin
 Copy code
-web-scraping-project/
+web-scraping-project/                                                                      
 │
-├── data/
-│   ├── flipkart_prices.csv
+├── data/                                                                                        
+│   ├── flipkart_prices.csv                                                                         
 │   ├── gold_prices.csv
-│   └── histograms/
-│       ├── flipkart_prices_histogram.png
-│       └── gold_prices_histogram.png
+│   └── histograms/                                                                                                
+│       ├── flipkart_prices_histogram.png                                                                                         
+│       └── gold_prices_histogram.png                                                                                                    
 │
-├── scrape_flipkart.py
-├── scrape_gold.py
-├── plot_histograms.py
-├── requirements.txt
+├── scrape_flipkart.py                                                                                                    
+├── scrape_gold.py                                                                                           
+├── plot_histograms.py                                                                                         
+├── requirements.txt                                                                                                                    
 └── README.md
