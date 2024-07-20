@@ -2,31 +2,26 @@
 
 This project involves scraping mobile and tablet prices from Flipkart, as well as gold prices from different countries. The scraped data is then used to plot histograms for visualization.
 
-Features
+## Features
 Scrape Mobile and Tablet Prices from Flipkart: Extracts product names and prices.
+
 Scrape Gold Prices from Various Countries: Gathers gold price data.
+
 Data Visualization: Plots histograms of the scraped prices.
-Technologies Used
+
+## Technologies Used
+
 Python: Programming language used for web scraping and data analysis.
+
 BeautifulSoup: Library used for parsing HTML and XML documents.
+
 Requests: Library used to send HTTP requests.
+
 Matplotlib: Library used for plotting histograms.
+
 Pandas: Library used for data manipulation and analysis.
 
-File Structure
-kotlin
-Copy code
-web-scraping-project/                                                                      
-│
-├── data/                                                                                        
-│   ├── flipkart_prices.csv                                                                         
-│   ├── gold_prices.csv
-│   └── histograms/                                                                                                
-│       ├── flipkart_prices_histogram.png                                                                                         
-│       └── gold_prices_histogram.png                                                                                                    
-│
-├── scrape_flipkart.py                                                                                                    
-├── scrape_gold.py                                                                                           
-├── plot_histograms.py                                                                                         
-├── requirements.txt                                                                                                                    
-└── README.md
+## Result
+![](https://github.com/Khushi-patel1221/Gold-Price-Tracking/blob/main/Screenshot%202023-04-28%20142820.png)
+![](https://github.com/Khushi-patel1221/Gold-Price-Tracking/blob/main/Screenshot%202023-04-28%20143054.png)
+
